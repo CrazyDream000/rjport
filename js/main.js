@@ -11,7 +11,7 @@
 
   // Preloader
   $(window).on('load', function () {
-    
+    alert("loaded");
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
         $('#preloader').remove();
