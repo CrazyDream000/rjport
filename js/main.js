@@ -11,11 +11,12 @@
 
   // Preloader
   $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
+    $(this).remove();
+    // if ($('#preloader').length) {
+    //   $('#preloader').delay(100).fadeOut('slow', function () {
+        
+    //   });
+    // }
   });
 
   // Back to top button
